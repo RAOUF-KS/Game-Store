@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="XBOX.css">
+    <title>XBOX STORE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" type="png"  href="data:image/jpeg;base64,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">    
+</head>
+<body>
+  <!--head-->
+    
+  <div class="header">
+   <img class="LOGO" src="images XBOX/logo.png">
+    <div class="nav">
+  
+          <a href="#">Home</a>
+          <a href="#">Contact</a>
+          <a href="#">My store</a>
+              <div class="cart-container">
+<i class="fas fa-regular fa-cart-shopping" id="cart-icon"></i>
+        <span class="cart-count">0</span>
+    </div>
+
+      <button class="btn">sign in</button>
+    </div>
+   </div>
+
+   <section class="hero">
+
+   <div class="land">
+    <div class="land1">
+      <h1>Welcome to Xbox Store</h1><br>
+      <h2>Best Gaming Site ever!</h2><br>
+      <p>we offer to you the best games,you don't see like those and you enjoy it you can play and downlod games ,in adition you can learn how to code and practice html css and javascript. </p><br>
+      <div class="shearch">
+        <input type="search" placeholder="Game...">
+        <button class="btn">SEARCH</button>
+      </div>
+    </div>
+    <div>
+      <img class="banner" src="images XBOX/banner-image.jpg" >
+   </div>
+   </div>
+
+ <!--games-->
+ <div class="games">
+
+  <span>Trending</span>
+  <div class="TREND"> 
+    <h1>Trending Games</h1>
+    <button class="btn2">Veiw All</button>
+  </div><br>
+
+  <div class="tcards">
+
+    
+  <div class="card">
+   <img class="im" src="images XBOX/trending-01.jpg" alt="">     
+    <div class="card-info"> 
+    <div class="card-name">
+        <p>Action</p><br>
+        <h3>Gorm</h3>
+        <p class="price">price:59</p>
+      </div>
+        <a class="shop-icon">
+          <img class="online" src="images XBOX/online-shopping.png">
+        </a>
+    </div>
+   </div>
+   
+    
+  <div class="card">
+   <img class="im" src="images XBOX/trending-02.jpg" alt="">     
+    <div class="card-info"> 
+    <div class="card-name">
+        <p>Action</p><br>
+        <h3>INFINITE</h3>
+         <p class="price">price:100</p>
+
+      </div>
+        <a class="shop-icon">
+          <img class="online" src="images XBOX/online-shopping.png">
+        </a>
+    </div>
+   </div>
+   
+  <div class="card">
+   <img class="im" src="images XBOX/trending-03.jpg" alt="">
+    <div class="card-info"> 
+    <div class="card-name">
+        <p>Action</p><br>
+        <h3>FORT NIGHT</h3>
+        <p class="price">price:30</p>
+
+      </div>
+
+        <a class="shop-icon">
+          <img class="online" src="images XBOX/online-shopping.png">
+        </a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="im" src="images XBOX/trending-04.jpg" alt="">
+     <div class="card-info"> 
+     <div class="card-name">
+         <p>Action</p><br>
+         <h3>YOUGI</h3>
+           <p class="price">price:15</p>
+       </div>
+       
+         <a class="shop-icon">
+           <img class="online" src="images XBOX/online-shopping.png">
+         </a>
+     </div>
+   </div>
+</div><br>
+  </div>
+
+  <section class="sc">
+
+    <span class="title1">Top Games</span>
+    <div class="tcards1">
+    <h3>Most Played</h3>
+    <button class="btn2">Veiw All</button>
+    </div><br><br>
+    
+      <div class="cards-top">
+
+<div class="container1">
+
+        <div class="games1">
+        <img class="im1" src="images XBOX/top-game-01.jpg" >
+      <div class="tx">
+        <span class="type">Adventure</span><br><br>
+        <h4>Warframe</h4><br>
+        <button class="btn3">EXPLORE</button>
+      </div>
+    </div>
+
+
+    <div class="games1">
+      <img class="im1" src="images XBOX/top-game-02.jpg" >
+    <div class="tx">
+      <span class="type">Action</span><br><br>
+      <h4>PUBG</h4><br>
+      <button class="btn3">EXPLORE</button>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="container2">
+
+  <div class="games1">
+    <img class="im1" src="images XBOX/top-game-03.jpg" >
+  <div class="tx">
+    <span class="type">Adventure</span><br><br>
+    <h4>APEX</h4><br>
+    <button class="btn3">EXPLORE</button>
+  </div>
+</div>
+
+
+<div class="games1">
+  <img class="im1" src="images XBOX/top-game-04.jpg" >
+<div class="tx">
+  <span class="type">Adventure</span><br><br>
+  <h4>SIMS4</h4><br>
+  <button class="btn3">EXPLORE</button>
+</div>
+</div>
+
+  </div>
+
+<div class="container3">
+
+<div class="games1">
+  <img class="im1" src="images XBOX/top-game-05.jpg" >
+<div class="tx">
+  <span class="type">Adventure</span><br><br>
+  <h4>Lostark</h4><br>
+  <button class="btn3">EXPLORE</button>
+</div>
+</div>
+
+
+<div class="games1">
+  <img class="im1" src="images XBOX/top-game-06.jpg" >
+<div class="tx">
+  <span class="type">Adventure</span><br><br>
+  <h4>Destiny 2</h4><br>
+  <button class="btn3">EXPLORE</button>
+</div>
+</div>
+
+    </div>
+      </div>
+    </section>
+   
+    <section class="sc1">
+
+      <div class="Categories">
+        <span class="title2">Top Games</span>
+        <h2>Top Categories</h2>
+      </div>
+
+      <div class="cards1">
+
+        <div class="container4">
+
+        <div class="games2">
+          <div class="tx1">
+            <p class="type1">Action</p>
+          </div>
+        <img class="im2" src="images XBOX/categories-01.jpg">
+      </div>
+
+      <div class="games2">
+        <div class="tx1">
+          <p class="type1">Action</p>
+        </div>
+      <img class="im2" src="images XBOX/categories-02.jpg">
+    </div>
+
+    </div>
+
+            <div class="container5">
+
+    <div class="games2">
+      <div class="tx1">
+        <p class="type1">Action</p>
+      </div>
+    <img class="im2" src="images XBOX/categories-03.jpg">
+  </div>
+
+
+  <div class="games2">
+    <div class="tx1">
+      <p class="type1">Action</p>
+    </div>
+  <img class="im2" src="images XBOX/categories-04.jpg">
+</div>
+
+            </div>
+
+                    <div class="container6">
+<div class="games2">
+  <div class="tx1">
+    <p class="type1">Action</p>
+  </div>
+<img class="im2" src="images XBOX/categories-05.jpg">
+</div>
+      </div>
+      </div>
+    </section>
+
+    <div class="footer">
+
+      
+    <div class="footer-bottom">
+        <p>&copy; Copyright,2048LUGX Gaming Company.2025 Game, Inc. All Rights Reserved</p>
+                </div>
+
+        <div class="footer-section-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/raouf_____kl/?hl=ar"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    
+
+    </div>
+
+    
+        <!-- Add this just before closing body tag -->
+<div class="cart-modal" id="cartModal">
+    <div class="cart-content">
+        <span class="close-cart">&times;</span>
+        <h2>Shopping Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: $<span id="totalPrice">0</span></h3>
+        </div>
+    </div>
+    
+</div>
+
+
+</section>
+
+<script>
+
+let game = JSON.parse(localStorage.getItem('game')) || [];
+const cartModal = document.getElementById('cartModal');
+const cartIcon = document.getElementById('cart-icon');
+const closeCart = document.querySelector('.close-cart');
+const cartCountDisplay = document.querySelector('.cart-count');
+const gameContainer = document.querySelector('.cart-items');
+
+// Update initial cart count on page load
+window.addEventListener('load', () => {
+    updateCartCount();
+});
+
+// Open cart modal
+cartIcon.addEventListener('click', () => {
+    cartModal.style.display = 'block';
+    updateCartDisplay();
+});
+
+// Close cart modal
+closeCart.addEventListener('click', () => {
+    cartModal.style.display = 'none';
+});
+
+// Replace the existing shop-icon click event listener with this:
+
+document.querySelectorAll('.shop-icon').forEach(button => {
+    button.addEventListener('click', function() {
+        const card = this.closest('.card');
+        const priceText = card.querySelector('.price').textContent;
+        // Extract numeric price value from the text
+        const price = parseFloat(priceText.replace('price:', '').replace('$', ''));
+        
+        const item = {
+            id: Date.now(),
+            name: card.querySelector('h3').textContent,
+            price: price, // Using the actual price from the card
+            image: card.querySelector('.im').src,
+            quantity: 1
+        };
+        
+        addToCart(item);
+        updateCartDisplay();
+        cartModal.style.display = 'block';
+    });
+});
+
+function addToCart(item) {
+    const existingItem = game.find(i => i.name === item.name);
+    if (existingItem) {
+        existingItem.quantity++;
+    } else {
+        game.push(item);
+    }
+    updateCartCount();
+    saveToLocalStorage();
+}
+
+function updateCartCount() {
+    const totalItems = game.reduce((sum, item) => sum + item.quantity, 0);
+    cartCountDisplay.textContent = totalItems;
+}
+
+function updateCartDisplay() {
+    gameContainer.innerHTML = '';
+    let total = 0;
+
+    game.forEach(item => {
+        const itemTotal = item.price * item.quantity;
+        total += itemTotal;
+
+        gameContainer.innerHTML += `
+            <div class="cart-item" data-id="${item.id}">
+                <img src="${item.image}" alt="${item.name}">
+                <div class="cart-item-details">
+                    <h4>${item.name}</h4>
+                    <p>$${item.price}</p>
+                    <div class="cart-item-actions">
+                        <button class="quantity-btn minus">-</button>
+                        <span class="quantity">${item.quantity}</span>
+                        <button class="quantity-btn plus">+</button>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    document.getElementById('totalPrice').textContent = total.toFixed(2);
+    addCartItemListeners();
+}
+
+function addCartItemListeners() {
+    document.querySelectorAll('.quantity-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const itemId = this.closest('.cart-item').dataset.id;
+            const item = game.find(i => i.id == itemId);
+            
+            if (this.classList.contains('plus')) {
+                item.quantity++;
+            } else if (this.classList.contains('minus') && item.quantity > 1) {
+                item.quantity--;
+            }
+            
+            updateCartDisplay();
+            updateCartCount();
+            saveToLocalStorage();
+        });
+    });
+
+    document.querySelectorAll('.remove-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const itemId = this.closest('.cart-item').dataset.id;
+            game = game.filter(item => item.id != itemId);
+            updateCartDisplay();
+            updateCartCount();
+            saveToLocalStorage();
+        });
+    });
+}
+
+function saveToLocalStorage() {
+    localStorage.setItem('game', JSON.stringify(game));
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
